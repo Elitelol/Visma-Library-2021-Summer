@@ -3,7 +3,7 @@ package com.example.VismaLibrary2021.DataStructures.Filters;
 import com.example.VismaLibrary2021.DataStructures.Book;
 
 public class AvailabilityFilter implements Filter {
-    public boolean taken;
+    private final boolean taken;
 
     public AvailabilityFilter(boolean taken) {
         this.taken = taken;
